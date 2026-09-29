@@ -1,7 +1,7 @@
 export function buildHall(ctx) {
   const { T, sc, frame, bx } = ctx;
 
-  frame("about", -4, 2.1, -5.62, 0, "Div: About", "#2b1a12", 1.5, 2);
+  frame("about", -4, 2.1, -5.62, 0, "greycard: About", "#2b1a12", 1.5, 2);
   frame("edu", 4, 2.1, -5.62, 0, "Education", "#3a2216", 1.3, 1.7);
 
   const wood = new T.MeshStandardMaterial({

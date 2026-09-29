@@ -7,7 +7,7 @@ export default function App(){
 
 <canvas id="c" aria-hidden="true" /><div id="gr"></div><div id="vg"></div><div id="fd"></div>
 <div id="in">
-  <h1>Divya Janarthanan</h1><p className="s">Engineer. Builder. Come in, it's late.</p>
+  <h1>greycard</h1><p className="s">Engineer. Builder. Come in, it's late.</p>
   <p className="keys"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or arrows: walk</span><span>Drag: look around</span><span><kbd>E</kbd> or click: open</span><span><kbd>M</kbd>: map</span></p>
   <div className="row"><button className="btn" id="en">Enter the mansion</button><button className="btn g" id="bw">Browse without walking</button></div>
 </div>
