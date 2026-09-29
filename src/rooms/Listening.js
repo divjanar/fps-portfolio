@@ -13,7 +13,7 @@ export function buildListening(ctx) {
   const loader = new GLTFLoader();
 
   loader.load(
-    "/models/dj_table.glb",
+    `${import.meta.env.BASE_URL}models/dj_table.glb`,
     (gltf) => {
       const model = gltf.scene;
 

@@ -1,6 +1,6 @@
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
-const PORSCHE_MODEL = "/models/porsche_911.glb";
+const PORSCHE_MODEL = `${import.meta.env.BASE_URL}models/porsche_911.glb`;
 
 export function buildGarage(ctx) {
   const { T, sc, bx, mat, OB, frame } = ctx;
